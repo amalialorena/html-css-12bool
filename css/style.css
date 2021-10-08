@@ -5,15 +5,15 @@
 }
 
 [class*="col-"]{
-    height: 40px;
+    height: 30px;
     background-color: blue;
     border:1px solid white;
     color:white;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
 }
 
-.row:nth-child(6) > div {
+.row:nth-child(7) > div {
     height: 100%;
     padding: 8px;
 }
@@ -23,5 +23,10 @@
 }
 .nested div {
     background-color: rgb(18, 209, 18);
-    height: 40px;
+    height: 30px;
+}
+
+.offset, .esercizio {
+    margin-top: 10px;
+    font-weight: 700;
 }
