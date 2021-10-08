@@ -12,3 +12,14 @@
     text-align: center;
     line-height: 40px;
 }
+
+.row:nth-child(6) > div {
+    height: 100%;
+    padding: 8px;
+}
+
+.nested div {
+    background-color: rgb(18, 209, 18);
+    height: 40px;
+
+}
