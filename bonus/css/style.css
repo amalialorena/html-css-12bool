@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    height: 30px;
+    background-color: blue;
+    border:1px solid white;
+    color:white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.row:nth-child(7) > div {
+    height: 100%;
+    padding: 8px;
+}
+
+.row:nth-child(6){
+    margin-bottom: 10px;
+}
+.nested div {
+    background-color: rgb(18, 209, 18);
+    height: 30px;
+}
+
+.offset, .esercizio {
+    margin-top: 10px;
+    font-weight: 700;
+}
